@@ -9,86 +9,13 @@
 
 
 
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-
-
-
-<!-- BEGIN GADWP v4.9.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
-<script type="text/javascript">
-(function($){
-    $(window).load(function() {
-        
-            //Track Downloads
-            $('a').filter(function() {
-                return this.href.match(/.*\.(zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|rar*)(\?.*)?$/);
-            }).click(function(e) {
-                ga('send','event', 'download', 'click', this.href);
-            });
-
-            //Track Mailto
-            $('a[href^="mailto"]').click(function(e) {
-                ga('send','event', 'email', 'send', this.href);
-             });
-            
-            //Track Outbound Links
-            $('a[href^="http"]').filter(function() {
-                if (!this.href.match(/.*\.(zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|rar*)(\?.*)?$/)){
-                    if (this.href.indexOf('earthhour.org.za') == -1) return this.href;
-                }
-            }).click(function(e) {
-                ga('send','event', 'outbound', 'click', this.href);
-            });
-		    		        
-            //Track Affiliates
-            $('a').filter(function() {
-            	if ('/out/'!=''){
-        	       	return this.href.match(/(\/out\/)/);
-            	}
-            }).click(function(event) {
-               		ga('send','event', 'affiliates', 'click', this.href);
-            });
-                
-            //Track Hashmarks
-            $('a').filter(function() {
-                if (this.href.indexOf('earthhour.org.za') != -1 || this.href.indexOf('://') == -1) return this.hash;
-            }).click(function(e) {
-                ga('send','event', 'hashmark', 'click', this.href);
-            });
-
-        });
-})(jQuery);
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-73963812-1', 'auto');
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview', {'anonymizeIp': true});</script>
-
-<!-- END GADWP Universal Tracking -->
-
 
 
 </head>
 
 
 <body class="page-template page-template-templates page-template-fullwidth-template page-template-templatesfullwidth-template-php page page-id-4725 page-parent wpb-js-composer js-comp-ver-5.0.1 vc_responsive">
-
+	<div>line of text</div>
 <script type="text/javascript">var loc = "https://analytics.clickdimensions.com/wwfsaorgza-a75ot/pages/";</script>
 <script type="text/javascript" src="https://az124611.vo.msecnd.net/web/v10/CDWidget.js"></script>
 <div pageID="cqlmupkveeae4gavxqbwcw"></div>
