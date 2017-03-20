@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+Test form capture
+<form action="http://analytics-eu.clickdimensions.com/forms/h/aQjmpqgfhoUicsFb2lW8dl">
+<input type="email" name="email"/>
+<input type="text" name="firstname"/>
+<button type="submit" value="Submit"/>
+
+<script type="text/javascript" src="https://analytics-eu.clickdimensions.com/ts.js" > </script> 
+
+<script type="text/javascript"> 
+  var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com'); 
+  cdAnalytics.setAccountKey('axhkovisiEO9U5zmMFiMNg'); 
+  cdAnalytics.setDomain('cmcarriger.github.io'); 
+  cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore)); 
+  cdAnalytics.trackPage(); 
+</script> 
+</body>
+</html>
