@@ -3,14 +3,13 @@
 <html>
 <head>
 
-
 </head>
 
 <body>
 	iframe embedded form test 15 (test form from success)
 	<script>
 $(function(){
-var search = location.search;
+var search = window.location.search;
 $("#foo").attr("src", $("#foo").attr("src")+search);
 });
 </script>	
